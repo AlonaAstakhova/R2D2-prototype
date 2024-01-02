@@ -1,0 +1,18 @@
+.app-main-nav {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 10px 15rem;
+}
+
+.app-main-p {
+  color: gray;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  margin: 0;
+}
+
+.app-main-p.active {
+  color: black;
+}
